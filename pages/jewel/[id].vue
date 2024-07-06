@@ -6,9 +6,9 @@
         <img :src="product.details.image" />
       </div>
       <div class="flex flex-col my-5 lg:my-0 lg:w-2/3 lg:ml-12">
-        <h1 class="my-2 text-2xl font-semibold uppercase">
+        <p class="my-2 text-2xl font-semibold uppercase">
           {{ product.details.title }}
-        </h1>
+        </p>
         <h1 class="mb-2 capitalize">{{ product.details.category }}</h1>
         <div class="flex justify-start ml-0">
           <div class="flex p-1 bg-green-600 rounded-md bg-opacity-80">
