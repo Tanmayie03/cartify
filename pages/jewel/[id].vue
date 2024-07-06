@@ -9,7 +9,7 @@
         <p class="my-2 text-2xl font-semibold uppercase">
           {{ product.details.title }}
         </p>
-        <h1 class="mb-2 capitalize">{{ product.details.category }}</h1>
+        <p class="mb-2 capitalize">{{ product.details.category }}</p>
         <div class="flex justify-start ml-0">
           <div class="flex p-1 bg-green-600 rounded-md bg-opacity-80">
             <svg
